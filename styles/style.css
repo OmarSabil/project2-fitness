@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0;
+}
+
+/* Common Styles */
+body {
+    background-color: black;
+}
+.font-orange {
+    color: #E6533C;
+}
+.area-primary{
+    max-width: 82rem;
+    margin: 20px auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+/* Header Styles */
+
+
+
+
+/* Logo & Navigation Bar */
+.manu {
+    justify-content: space-between;
+}
+
+.nav-bar {
+    width: 465px;
+    height: 46px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+.manu-title {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.nav-item {
+    margin: 10px;
+    list-style: none;
+    /* padding: 20px; */
+}
+
+.nav-btn {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.home {
+    margin-left: -30px;
+    padding: 8px 20px;
+
+    background-color: #E6533C;
+    border-radius: 39px;
+}
+.ham-burger{
+    color: white;
+    display: none;
+}
