@@ -5,9 +5,15 @@ h2 {
     font-weight: 800;
 }
 
+/* h5 {
+    font-size: 18px;
+    font-weight: 600;
+} */
+
 /* body {
     background-color: black;
 } */
+
 .font-white {
     color: white;
 }
@@ -16,14 +22,16 @@ h2 {
     color: #E6533C;
 }
 
-.titel-primary {
+.title-primary {
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
 }
 
 .title-secondary {
     font-size: 28px;
     font-weight: 900;
+    margin-bottom: 6px;
 }
 
 .description-primary {
@@ -51,6 +59,11 @@ h2 {
     border-radius: 42px;
 }
 
+.topic-intro {
+    max-width: 671px;
+    width: 100%;
+    text-align: center;
+}
 
 
 
@@ -108,6 +121,22 @@ h1 {
 .card-2{
     margin: -63px 256px 63px -113px;
 }
+
+/* Change Your Habits */
+.habits {
+    justify-content: space-evenly;
+    text-align: center;
+}
+.habit-container {
+    max-width: 15rem;
+}
+.habit-img {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 100px;
+    margin-bottom: 0px;
+}
+
+
 
 
 

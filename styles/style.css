@@ -8,14 +8,17 @@
     font-variation-settings:
         "slnt" 0;
 }
-
 h2 {
     font-size: 70px;
     font-weight: 800;
 }
-
+h5 {
+    font-size: 18px;
+    font-weight: 600;
+}
 /* Common Styles */
 body {
+    margin: -30px auto;
     background-color: black;
 }
 
@@ -27,17 +30,20 @@ body {
     color: #E6533C;
 }
 
-.titel-primary {
+.title-primary {
     font-size: 48px;
     font-weight: 900;
+    margin: 0;
 }
 
 .title-secondary {
     font-size: 28px;
     font-weight: 900;
+    margin-bottom: 6px;
 }
 
 .description-primary {
+    color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
     font-weight: 400;
 }
@@ -62,21 +68,29 @@ body {
     border-radius: 42px;
 }
 
+.topic-intro {
+    max-width: 671px;
+    width: 100%;
+    text-align: center;
+}
+
 
 
 
 /* Header Styles */
+header {
+    margin-bottom: 100px;
+}
 
 
 
-
-/* Logo & Navigation Bar */
+/* Logo & Nav Bar */
 .manu {
     justify-content: space-between;
 }
 
 .nav-bar {
-    width: 465px;
+    width: 28rem;
     height: 46px;
     border: 2px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
@@ -90,7 +104,6 @@ body {
 .nav-item {
     margin: 10px;
     list-style: none;
-    /* padding: 20px; */
 }
 
 .nav-btn {
@@ -133,7 +146,8 @@ h1>i {
 }
 
 .banner-details>p {
-    width: 33rem;
+    max-width: 70%;
+    width: 90%;
     margin: 28px 0;
 }
 
@@ -147,7 +161,8 @@ h1>i {
 
 .card {
     color: white;
-    text-align: center;
+    text-align: left;
+    padding: 5px 0 0 25px;
     width: 13rem;
     height: 6rem;
     border: 1px solid white;
@@ -175,4 +190,96 @@ h1>i {
 
 .card-2 {
     margin: -63px 256px 63px -113px;
+}
+
+/* Change Your Habits */
+.habits {
+    justify-content: space-evenly;
+    text-align: center;
+}
+.habit-container {
+    max-width: 15rem;
+}
+.habit-img {
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 100px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    body{
+        max-width: 33rem;
+        width: 100%;
+        margin: -30px auto;
+    }
+    /* .area-primary {
+        width: 100%;
+        margin: 10px auto;
+    } */
+
+    /* Logo & Nav Bar */
+    .nav-bar {
+        display: none;
+    }
+    .ham-burger {
+        display: block;
+    }
+    .manu {
+        justify-content: space-between;
+    }
+    .banner-container {
+        flex-direction: column;
+    }
+    h1, .description-primary, .banner-visual > img {
+        max-width: 30rem;
+        width: 100%;
+    }
+    .banner-visual {
+        margin-left: 60px;
+    }
+    .banner-details {
+        width: 100%;
+        margin: 5px auto;
+    }
+    .card {
+        width: 11rem;
+    }
+
+    /* Change Your Habits */
+    .topic-intro p {
+        margin: 10px auto;
+    }
+    .
+    .habits {
+        flex-direction: column;
+    }
 }
