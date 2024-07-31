@@ -13,7 +13,9 @@ h2 {
 /* body {
     background-color: black;
 } */
-
+.bg-secondary {
+    background-color: rgb(34, 34, 34);
+}
 .font-white {
     color: white;
 }
@@ -64,7 +66,6 @@ h2 {
     width: 100%;
     text-align: center;
 }
-
 
 
 /* Banner */
@@ -134,6 +135,25 @@ h1 {
     border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 100px;
     margin-bottom: 0px;
+}
+
+/* Run an Extra Mile Easily */
+
+.run-extra {
+    width: 82%;
+    justify-content: space-between;
+    padding: 30px 56px;
+    border-radius: 18px;
+}
+.run-extra .title-primary, .run-extra .description-primary {
+    width: 28rem;
+}
+.run-img {
+    width: 366px;
+    height: 312px;
+    object-fit: cover;
+    border-radius: 18px;
+    overflow: hidden;
 }
 
 

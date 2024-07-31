@@ -22,6 +22,10 @@ body {
     background-color: black;
 }
 
+.bg-secondary {
+    background-color: rgb(34, 34, 34);
+}
+
 .font-white {
     color: white;
 }
@@ -86,6 +90,8 @@ header {
 
 /* Logo & Nav Bar */
 .manu {
+    display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -207,7 +213,28 @@ h1>i {
     margin-bottom: 0px;
 }
 
+/* Run an Extra Mile Easily */
 
+.run-extra {
+    width: 82%;
+    justify-content: space-between;
+    padding: 30px 56px;
+    border-radius: 18px;
+    margin-top: 100px;
+}
+.run-extra .title-primary, .run-extra .description-primary {
+    width: 28rem;
+}
+.run-extra .btn-primary {
+    margin: 10px 0 50px 0;
+}
+.run-img {
+    width: 366px;
+    height: 312px;
+    object-fit: cover;
+    border-radius: 18px;
+    overflow: hidden;
+}
 
 
 
@@ -241,10 +268,14 @@ h1>i {
         width: 100%;
         margin: -30px auto;
     }
-    /* .area-primary {
-        width: 100%;
-        margin: 10px auto;
-    } */
+    .flex {
+        flex-direction: column;
+    }
+    .area-primary {
+        /* max-width: 30rem; */
+        /* width: 100%; */
+        margin: 100 auto;
+    }
 
     /* Logo & Nav Bar */
     .nav-bar {
@@ -278,8 +309,15 @@ h1>i {
     .topic-intro p {
         margin: 10px auto;
     }
-    .
     .habits {
         flex-direction: column;
+    }
+
+    /* Run an Extra Mile Easily */
+    .run-extra {
+        margin-left: 0 auto;
+        padding: 40px;
+        max-width: 90%;
+        text-align: center;
     }
 }
