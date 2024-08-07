@@ -5,14 +5,9 @@ h2 {
     font-weight: 800;
 }
 
-/* h5 {
-    font-size: 18px;
-    font-weight: 600;
-} */
-
-/* body {
+body {
     background-color: black;
-} */
+}
 .bg-secondary {
     background-color: rgb(34, 34, 34);
 }
@@ -37,6 +32,7 @@ h2 {
 }
 
 .description-primary {
+    color: rgba(255, 255, 255, 0.6);
     font-size: 16px;
     font-weight: 400;
 }
@@ -49,6 +45,11 @@ h2 {
 .flex {
     display: flex;
     align-items: center;
+}
+
+.grid {
+    display: grid;
+    gap: 12px;
 }
 
 .btn-primary {
@@ -155,6 +156,115 @@ h1 {
     border-radius: 18px;
     overflow: hidden;
 }
+
+/* BMI Calculator */
+
+.bmi-container {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px 0 30px;
+}
+.bmi-details {
+    width: 35rem;
+    text-align: center;
+}
+.bmi-box {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Table Styles */
+.chart > .title-secondary {
+    margin-bottom: 35px;
+}
+table {
+    width: 310px;
+    height: 216px;
+    border-collapse: collapse;
+    font-size: 16px;
+    text-align: left;
+}
+td, th {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 10px;
+}
+th {
+    font-size: 19px;
+}
+td {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.6);
+}
+/* Form Styles */
+.form {
+    width: 36rem;
+}
+.height, .weight, .age, .sex, .activity {
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    padding-left: 20px;
+}
+.height {
+    grid-area: height;
+}
+.width {
+    grid-area: width;
+}
+.age {
+    grid-area: age;
+}
+.sex {
+    grid-area: sex;
+}
+.activity {
+    grid-area: activity;
+}
+.bmi-form {
+    width: 36rem;
+    height: 168px;
+    grid-template-areas: 
+    "height      weight"
+    "age         sex"
+    "activity    activity"
+    ;
+}
+.form button {
+    margin-top: 30px;
+}
+
+
+/* Meet Our Team */
+.team-member-section .area-primary {
+    text-align: center;
+}
+.team-members {
+    width: 80%;
+    height: 39rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    padding: 30px 20px 20px 20px;
+    padding-bottom: 0;
+    grid-template-columns: repeat(3, 2fr);
+    text-align: center;
+}
+.team-img {
+    width: 25rem;
+    height: 17rem;
+    object-fit: cover;
+    border-radius: 18px;
+}
+.intro-container {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: -125px;
+    margin-bottom: 50px;
+}
+.intro-container .description-primary {
+    margin: 0;
+}
+
+
 
 
 
