@@ -309,6 +309,7 @@ td {
 /* Footer */
 footer {
     margin-top: 50px;
+    padding-bottom: 5px;
 }
 
 .about {

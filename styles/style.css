@@ -351,7 +351,7 @@ td {
 }
 .intro-container {
     text-align: left;
-    margin-left: 30px;
+    margin-left: 25px;
     margin-top: -110px;
     margin-bottom: 50px;
 }
@@ -360,7 +360,59 @@ td {
 }
 
 
+            /* Footer */
+footer {
+    margin-top: 50px;
+    padding-bottom: 1px;
+}
 
+.about {
+    justify-content: space-between;
+    align-items: normal;
+}
+
+/* Logo Section Style */
+.logo {
+    margin-top: 55px;
+}
+
+.logo .description-primary {
+    font-size: 14px;
+    max-width: 28rem;
+    width: 90%;
+}
+
+/* Info Container Styles */
+.info-container {
+    width: 27rem;
+    justify-content: space-between;
+}
+
+.info-container .title-secondary {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.info-container p,
+.copy-right {
+    color: rgba(255, 255, 255, 0.5);
+    list-style: none;
+}
+
+.info-container p {
+    font-size: 23px;
+    font-weight: 400;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.copy-right {
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
 
 
 
@@ -390,6 +442,7 @@ td {
     .flex {
         flex-direction: column;
     }
+
     .area-primary {
         max-width: 30rem;
         width: 80%;
@@ -457,22 +510,40 @@ td {
     }
     .form .title-secondary, .form .description-primary {
         text-align: left;
-        margin-left: 20px;
     }
     .bmi-form {
         width: 28rem;
         margin: 30px auto;
         margin-bottom: 0;
     }
-    .form .btn-primary {
-        margin-left: 20px;
+
+    /* Meet Our Team */
+    .team-members {
+        height: 1810px;
     }
-    /* Team Members */
     .team-member-section details .description-primary{
         width: 100%;
         margin: 50px auto;    }
     .team-members {
         grid-template-columns: repeat(1, 6fr);
+    }
+    .team-img {
+        width: 22rem;
+        height: 16rem;
+    }
+    .intro-container {
+        margin-left: 50px;
+        margin-top: -100px;
+    }
+    /* Footer */
+    .info-container, .copy-right {
+        width: 320px;
+    }
+    .info-container {
+        margin-left: -50px;
+    }
+    .copy-right {
+        width: 100%;
     }
 
 }
