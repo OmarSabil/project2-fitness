@@ -16,9 +16,12 @@
 </head>
 
 <body class="inter-font font-white">
+
+
     <header>
+
         <!-- Logo & Navigation Bar -->
-        <nav class="manu area-primary">
+        <nav class="manu area-secondary">
             <h3 class="manu-title font-orange"><i>Fitness</i></h3>
             <ul class="nav-bar flex">
                 <li class="home nav-item"><a class="nav-btn
@@ -34,7 +37,7 @@
         </nav>
 
         <!-- banner -->
-        <div class="banner-container area-primary flex">
+        <div class="banner-container area-secondary flex">
             <div class="banner-details">
                 <h1>Get body in <i>shape</i> & stay healty</h1>
                 <p class="description-primary">A huge selection of health and fitness content, healthy recipes and
@@ -56,18 +59,23 @@
                 </div>
             </div>
         </div>
+
     </header>
 
-    
+
     <main>
+
         <!-- Change Your Habits -->
         <section class="habits-section-container area-primary">
             <!-- Habit intro -->
-            <div class="topic-intro area-primary">
+            <div class="details area-primary">
                 <h3 class="title-primary">Change Your Habits</h3>
                 <p class="description-primary">We believe fitness should be accessible to everyone, everywhere,
                     regardless of income or access to a gym</p>
             </div>
+
+            <br>
+
             <!-- habit Visuals -->
             <div class="habits flex">
                 <div class="habit-container">
@@ -107,67 +115,136 @@
         </section>
 
         <!-- BMI Calculator -->
-    <section class="section-container font-white">
-        <div class="bmi-details area-primary">
-            <h3 class="title-primary">BMI Calculator</h3>
-            <p class="description-primary">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
-        </div>
-        <br><br>
-        <div class="bmi-container bg-secondary">
-            <div class="bmi-box area-primary flex">
+        <section class="section-container font-white">
+            <div class="details area-primary">
+                <h3 class="title-primary">BMI Calculator</h3>
+                <p class="description-primary">We believe fitness should be accessible to everyone, everywhere,
+                    regardless of income or access to a gym.</p>
+            </div>
+            <br><br>
+            <div class="bmi-container bg-secondary">
+                <div class="bmi-box area-primary flex">
 
-                        <!-- BMI Table -->
-                <div class="chart">
-                    <h5 class="title-secondary">BMI Calculator Chart</h5>
-                    <table class="bmi-chart">
-                        <thead>
-                            <tr>
-                                <th>BMI</th>
-                                <th>Weight Status</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Below 18.5</td>
-                                <td>Underweight</td>
-                            </tr>
-                            <tr>
-                                <td>18.5 - 24.9</td>
-                                <td>Healthy</td>
-                            </tr>
-                            <tr>
-                                <td>25.0 - 29.9</td>
-                                <td>Overweight</td>
-                            </tr>
-                            <tr>
-                                <td>30.0 - and Above</td>
-                                <td>Obese</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-
-                        <!-- BMI Form -->
-                <div class="form">
-                    <h5 class="title-secondary">Calculate Your BMI</h5>
-                    <p class="description-primary">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
-                    <div class="form-container">
-                        <form class="bmi-form grid" action="">
-                            <input class="height" type="text" placeholder="Height/cm">
-                            <input class="weight" type="text" placeholder="Weight/kg">
-                            <input class="age" type="text" placeholder="Age">
-                            <input class="sex" type="text" placeholder="Sex">
-                            <input class="activity" type="text" placeholder="Select an activity factor">
-                        </form>
+                    <!-- BMI Table -->
+                    <div class="chart">
+                        <h5 class="title-secondary">BMI Calculator Chart</h5>
+                        <table class="bmi-chart">
+                            <thead>
+                                <tr>
+                                    <th>BMI</th>
+                                    <th>Weight Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Below 18.5</td>
+                                    <td>Underweight</td>
+                                </tr>
+                                <tr>
+                                    <td>18.5 - 24.9</td>
+                                    <td>Healthy</td>
+                                </tr>
+                                <tr>
+                                    <td>25.0 - 29.9</td>
+                                    <td>Overweight</td>
+                                </tr>
+                                <tr>
+                                    <td>30.0 - and Above</td>
+                                    <td>Obese</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <button class="btn-primary">Calculate</button>
+
+                    <!-- BMI Form -->
+                    <div class="form">
+                        <h5 class="title-secondary">Calculate Your BMI</h5>
+                        <p class="description-primary">We believe fitness should be accessible to everyone, everywhere,
+                            regardless of income or access to a gym. </p>
+                        <div class="form-container">
+                            <form class="bmi-form grid" action="">
+                                <input class="height" type="text" placeholder="Height/cm">
+                                <input class="weight" type="text" placeholder="Weight/kg">
+                                <input class="age" type="text" placeholder="Age">
+                                <input class="sex" type="text" placeholder="Sex">
+                                <input class="activity" type="text" placeholder="Select an activity factor">
+                            </form>
+                        </div>
+                        <button class="btn-primary">Calculate</button>
+                    </div>
                 </div>
             </div>
-        </div>
 
-    </section>
+        </section>
+        <!-- Meet Our Team -->
+        <section class="team-member-section">
+
+            <div class="details area-primary">
+                <h3 class="title-primary">Meet Our Team</h3>
+                <p class="description-primary">We believe fitness should be accessible to everyone, everywhere,
+                    regardless of income or access to a gym.</p>
+            </div>
+
+            <br>
+
+            <div class="team-members grid area-primary">
+                <!-- Trainer 1 -->
+                <div class="member">
+                    <img class="team-img" src="images/trainer1.png" alt="">
+                    <div class="intro-container">
+                        <h5 class="title-secondary">Jerome Bell</h5>
+                        <p class="description-primary">Trainer</p>
+                    </div>
+                </div>
+                <!-- Trainer 2 -->
+                <div class="member">
+                    <img class="team-img" src="images/trainer2.png" alt="">
+                    <div class="intro-container">
+                        <h5 class="title-secondary">Cameron Williamson</h5>
+                        <p class="description-primary">Trainer</p>
+                    </div>
+                </div>
+                <!-- Trainer 3 -->
+                <div class="member">
+                    <img class="team-img" src="images/trainer3.png" alt="">
+                    <div class="intro-container">
+                        <h5 class="title-secondary">Darrell Steward</h5>
+                        <p class="description-primary">Trainer</p>
+                    </div>
+                </div>
+                <!-- Trainer 4 -->
+                <div class="member">
+                    <img class="team-img" src="images/trainer4.png" alt="">
+                    <div class="intro-container">
+                        <h5 class="title-secondary">Dianne Russell</h5>
+                        <p class="description-primary">Trainer</p>
+                    </div>
+                </div>
+                <!-- Trainer 5 -->
+                <div class="member">
+                    <img class="team-img" src="images/trainer5.png" alt="">
+                    <div class="intro-container">
+                        <h5 class="title-secondary">Cody Fisher</h5>
+                        <p class="description-primary">Trainer</p>
+                    </div>
+                </div>
+                <!-- Trainer 6 -->
+                <div class="member">
+                    <img class="team-img" src="images/trainer6.png" alt="">
+                    <div class="intro-container">
+                        <h5 class="title-secondary">Teresa Webb</h5>
+                        <p class="description-primary">Trainer</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
     </main>
-    <footer></footer>
+
+
+    <footer class="bg-secondary">
+
+    </footer>
 </body>
 
 </html>

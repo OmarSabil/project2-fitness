@@ -8,14 +8,7 @@
     font-variation-settings:
         "slnt" 0;
 }
-h2 {
-    font-size: 70px;
-    font-weight: 800;
-}
-h5 {
-    font-size: 18px;
-    font-weight: 600;
-}
+
 /* Common Styles */
 body {
     background-color: black;
@@ -39,7 +32,7 @@ body {
 
 .title-secondary {
     font-size: 1.25rem;
-    font-weight: 900;
+    font-weight: 600;
     margin-bottom: 6px;
 }
 
@@ -49,7 +42,18 @@ body {
     font-weight: 400;
 }
 
+h2 {
+    font-size: 70px;
+    font-weight: 800;
+    margin: 0;
+}
+
 .area-primary {
+    max-width: 67rem;
+    margin: 20px auto;
+}
+
+.area-secondary {
     max-width: 78rem;
     margin: 20px auto;
 }
@@ -84,7 +88,7 @@ body {
 
 
 
-/* Header Styles */
+            /* Header */
 header {
     margin-bottom: 100px;
 }
@@ -201,6 +205,9 @@ h1>i {
     margin: -63px 256px 63px -113px;
 }
 
+
+        /* Main */
+
 /* Change Your Habits */
 .habits {
     justify-content: space-evenly;
@@ -225,7 +232,10 @@ h1>i {
     margin-top: 100px;
 }
 .run-extra .title-primary, .run-extra .description-primary {
-    width: 28rem;
+    width: 90%;
+}
+.run-extra .title-primary {
+    margin-top: 30px;
 }
 .run-extra .btn-primary {
     margin: 40px 0 50px 0;
@@ -243,14 +253,16 @@ h1>i {
 .bmi-container {
     font-size: 16px;
     font-weight: 400;
-    padding: 10px 0 30px;
+    padding: 5px 0 30px;
 }
-.bmi-details {
-    width: 35rem;
+.details {
+    margin-top: 100px;
+    margin-bottom: -10px;
+    width: 45rem;
     text-align: center;
 }
 .bmi-box {
-    display: flex;
+    align-items: normal;
     justify-content: space-between;
 }
 
@@ -315,7 +327,37 @@ td {
     margin-top: 30px;
 }
 
-
+/* Meet Our Team */
+.team-member-section .area-primary {
+    text-align: center;
+}
+.team-members {
+    width: 90%;
+    height: 36.5rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 18px;
+    padding: 30px 20px 20px 20px;
+    padding-bottom: 0;
+    grid-template-columns: repeat(3, 2fr);
+    text-align: center;
+}
+.team-img {
+    max-width: 22rem;
+    width: 100%;
+    max-height: 16rem;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+}
+.intro-container {
+    text-align: left;
+    margin-left: 30px;
+    margin-top: -110px;
+    margin-bottom: 50px;
+}
+.intro-container .description-primary {
+    margin: 0;
+}
 
 
 
@@ -349,8 +391,8 @@ td {
         flex-direction: column;
     }
     .area-primary {
-        /* max-width: 30rem; */
-        /* width: 100%; */
+        max-width: 30rem;
+        width: 80%;
         margin: 100 auto;
     }
 
@@ -391,6 +433,9 @@ td {
     }
 
     /* Run an Extra Mile Easily */
+    .run-extra .title-primary, .run-extra .description-primary {
+        width: 100%;
+    }
     .run-extra {
         margin-left: 0 auto;
         padding: 40px;
@@ -421,6 +466,13 @@ td {
     }
     .form .btn-primary {
         margin-left: 20px;
+    }
+    /* Team Members */
+    .team-member-section details .description-primary{
+        width: 100%;
+        margin: 50px auto;    }
+    .team-members {
+        grid-template-columns: repeat(1, 6fr);
     }
 
 }
