@@ -166,8 +166,16 @@
                                 <input class="height" type="text" placeholder="Height/cm">
                                 <input class="weight" type="text" placeholder="Weight/kg">
                                 <input class="age" type="text" placeholder="Age">
-                                <input class="sex" type="text" placeholder="Sex">
-                                <input class="activity" type="text" placeholder="Select an activity factor">
+                                <select class="sex" type="text">
+                                    <option value="">Sex</option>
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                    <option value="Others">Others</option>
+                                    <option value="Prefer not to say">Prefer not to say</option>
+                                </select>
+                                <select class="activity" type="text">
+                                    <option value="">Select an activity factor</option>
+                                </select>
                             </form>
                         </div>
                         <button class="btn-primary">Calculate</button>
@@ -176,6 +184,50 @@
             </div>
 
         </section>
+
+
+        <!-- Bonus Section -->
+        <section class="bonus-section area-primary">
+            <div class="details area-primary">
+                <h3 class="title-primary">Before You Join</h3>
+                <p class="description-primary">You may be are ready to become a part of our fitness family. So, join us
+                    and before joining, you better go through the instructions given below...</p>
+            </div>
+            <div class="flex bonus-container bg-secondary">
+                <div class="screen flex">
+                    <img class="tv" src="images/tv1.png" alt="">
+                    <div class="in-screen">
+                        <iframe class="vdo" src="https://www.youtube.com/embed/IwFPIfrwaII?si=FTYW5LS4x8itivdr"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <div class="breaking-news">
+                            <h6>Breaking News:</h6>
+                            <p>
+                                <<< You are ready to start your fitness journey>>>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="remember-to">
+                    <h3 class="title-primary">Remember to<span class="font-orange">..</span></h3>
+                    <ul>
+                        <li><span class="title-secondary font-white">Eat </span> <span class="title-extantion">Healty
+                                Diet</span></li>
+                        <li><span class="title-secondary font-white">Stay </span> <span
+                                class="title-extantion">Consistant</span></li>
+                        <li><span class="title-secondary font-white">Be </span> <span
+                                class="title-extantion">Disciplined</span></li>
+                        <li><span class="title-secondary font-white">Work-out </span> <span
+                                class="title-extantion">Regular</span></li>
+                        <li><span class="title-secondary font-white">Rest </span> <span
+                                class="title-extantion">Proper</span></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+
         <!-- Meet Our Team -->
         <section class="team-member-section">
 
@@ -247,7 +299,8 @@
             <!-- Logo -->
             <div class="logo">
                 <h2 class="footer-logo font-orange"><i>Fitness</i></h2>
-                <p class="description-primary">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.</p>
+                <p class="description-primary">We believe fitness should be accessible to everyone, everywhere,
+                    regardless of income or access to a gym. With hundreds of professional workouts.</p>
             </div>
             <!-- Notables -->
             <div class="info-container flex">
