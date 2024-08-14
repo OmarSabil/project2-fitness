@@ -365,7 +365,7 @@ td {
 /* Bonus Section */
 .bonus-section {
     margin-top: 50px;
-    margin-left: 242px;
+    /* margin-left: 242px; */
     margin-bottom: 100px;
 }
 .bonus-section .bg-secondary {
