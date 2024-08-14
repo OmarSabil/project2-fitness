@@ -535,28 +535,7 @@ hr {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width: 992px) {}
-
-
-
-
-
 
 
 @media screen and (max-width: 576px) {
@@ -663,6 +642,53 @@ hr {
         margin-bottom: 0;
     }
 
+     /* Bonus Section */
+     .bonus-section {
+        margin: 40px;
+    }
+    .bonus-section .details {
+        width: 100%;
+    }
+    .bonus-container {
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    .screen, .vdo, .breaking-news {
+        width: 90%;
+    }
+    .tv {
+        width: 400px;
+        height: 250px;
+        margin-right: 20px;
+    }
+    .vdo {
+        height: 100%;
+        margin-left: 12px;
+
+    }
+    .breaking-news {
+        margin-left: 12px;
+    }
+    .screen {
+        max-width: 600px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .in-screen {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: -240px;
+        margin-left: 0;
+    }
+    .remember-to {
+        margin-top: 120px;
+        margin-left: -20px;
+    }
+    .in-screen p {
+        font-size: 15px;
+    }
+
     /* Meet Our Team */
     .team-members {
         height: 1810px;
@@ -701,50 +727,5 @@ hr {
         width: 100%;
     }
 
-
-    /* Bonus Section */
-    .bonus-section {
-        margin: 40px;
-    }
-    .bonus-container {
-        margin-top: 50px;
-        flex-direction: column;
-    }
-    .screen, .vdo, .breaking-news {
-        width: 90%;
-    }
-    .tv {
-        width: 400px;
-        height: 250px;
-        margin-right: 20px;
-    }
-    .vdo {
-        height: 100%;
-        margin-left: 12px;
-
-    }
-    .breaking-news {
-        margin-left: 12px;
-    }
-    .screen {
-        max-width: 600px;
-        width: 100%;
-        margin-left: 0;
-    }
-    .in-screen {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        margin-top: -240px;
-        margin-left: 0;
-    }
-    /* Remember */
-    .remember-to {
-        margin-top: 100px;
-        margin-left: -20px;
-    }
-    .in-screen p {
-        font-size: 15px;
-    }
 
 }
